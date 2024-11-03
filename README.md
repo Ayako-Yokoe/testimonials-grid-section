@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Ayako-Yokoe/testimonials-grid-section](https://your-solution-url.com)
-- Live Site URL: [https://testimonials-grid-section-main-inky.vercel.app/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Ayako-Yokoe/testimonials-grid-section](https://github.com/Ayako-Yokoe/testimonials-grid-section)
+- Live Site URL: [https://testimonials-grid-section-main-inky.vercel.app/](https://testimonials-grid-section-main-inky.vercel.app/)
 
 ## My process
 

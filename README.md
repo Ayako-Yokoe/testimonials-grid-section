@@ -4,14 +4,14 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -19,27 +19,27 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 Users should be able to:
 
--   View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
-<img src="./images/375px.png" alt="375px" width="auto" height="200">
+<img src="./images/375px.png" alt="375px" width="200" height="auto">
 <img src="./images/1440px.jpeg" alt="1440px" width="300" height="auto">
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Ayako-Yokoe/testimonials-grid-section](https://your-solution-url.com)
+- Live Site URL: [https://testimonials-grid-section-main-inky.vercel.app/](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   CSS Grid
--   Mobile-first workflow
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
 ### What I learned
 
@@ -76,4 +76,3 @@ I learned how to use a grid system. While there are various ways to achieve the 
 ### Continued development
 
 I plan to deepen my understanding of grid systems to create more dynamic and flexible layouts.
-# testimonials-grid-section

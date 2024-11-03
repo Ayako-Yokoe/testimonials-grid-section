@@ -1,0 +1,166 @@
+:root {
+    --color-moderate-violet: rgb(117, 65, 200);
+    --color-very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --color-very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(0, 0%, 81%);
+    --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: var(--color-light-grayish-blue);
+    margin: 5rem 0;
+    min-height: 100vh;
+}
+article {
+    margin: 0 auto;
+    margin-bottom: 1.4rem;
+    border-radius: 10px;
+    padding: 2.1rem;
+    max-width: 100%;
+    width: calc(100% - 4rem);
+    box-shadow: 20px 20px 50px var(--color-light-gray);
+}
+.icon {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+    max-width: 100%;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.comment {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.quote {
+    font-size: 0.8rem;
+}
+.daniel {
+    background-color: var(--color-moderate-violet);
+    color: var(--color-white);
+    position: relative;
+}
+.daniel .profile {
+    position: relative;
+    z-index: 1;
+}
+.daniel .icon {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.daniel .title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+}
+.daniel .quote {
+    color: rgba(255, 255, 255, 0.7);
+}
+.daniel .comment,
+.daniel .quote {
+    position: relative;
+    z-index: 1;
+}
+.bg-quote {
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+}
+.jonathan {
+    background-color: var(--color-very-dark-grayish-blue);
+    color: var(--color-white);
+}
+.jonathan .icon {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.jonathan .title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+}
+.jonathan .quote {
+    color: rgba(255, 255, 255, 0.7);
+}
+.jeanette,
+.kira {
+    background-color: var(--color-white);
+    color: var(--color-very-dark-grayish-blue);
+}
+.jeanette .icon,
+.kira .icon {
+    border: 2px solid rgba(72, 85, 106, 0.5);
+}
+.jeanette .title,
+.kira .title {
+    color: rgba(72, 85, 106, 0.5);
+    font-size: 0.7rem;
+}
+.jeanette .quote,
+.kira .quote {
+    color: rgba(72, 85, 106, 0.7);
+}
+.patrick {
+    background-color: var(--color-very-dark-blackish-blue);
+    color: var(--color-white);
+}
+.patrick .icon {
+    border: 2px solid rgba(72, 85, 106, 0.5);
+}
+.patrick .title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+}
+.patrick .quote {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    article {
+        margin-bottom: 0;
+        width: 100%;
+        line-height: 1.2rem;
+    }
+    .grid-container {
+        width: calc(100% - 15rem);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+        grid-template-areas:
+            "a a b c"
+            "d e e c";
+    }
+    .daniel {
+        grid-area: a;
+    }
+    .jonathan {
+        grid-area: b;
+    }
+    .jeanette {
+        grid-area: d;
+    }
+    .patrick {
+        grid-area: e;
+    }
+    .kira {
+        grid-area: c;
+    }
+}
